@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>lex_run_pkg</name>
+  <version>1.0.0</version>
+  <description>
+    A custom AWS RoboMaker robot package with a rotating Turtlebot3
+  </description>
+  <license>MIT</license>
+  <author email="aws-robomaker@amazon.com">AWS RoboMaker</author>
+  <maintainer email="aws-robomaker@amazon.com">AWS RoboMaker</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>lex_common_msgs</depend>
+  <depend>audio_common_msgs</depend>
+  <depend>message_generation</depend>
+  <exec_depend>message_runtime</exec_depend>
+    <exec_depend>lex_node</exec_depend>
+
+</package>

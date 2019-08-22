@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="lex_run_pkg" type="lex_conv.py" name="lex_conv" output="screen"/>
+    <node pkg="lex_run_pkg" type="lex_cmd.py" name="lex_cmd" output="screen"/>
+    
+
+    
+</launch>
+
